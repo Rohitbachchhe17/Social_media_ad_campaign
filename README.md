@@ -1,9 +1,9 @@
-Social_Media_Ad_Campaign
+# Social_Media_Ad_Campaign
 
 <img width="1308" height="749" alt="image" src="https://github.com/user-attachments/assets/75004c0a-12c3-4475-85c7-74993646aeb3" />
 
 
-About the Dataset:
+# About the Dataset:
 Link- https://www.kaggle.com/datasets/loveall/clicks-conversion-tracking
 
 The data set is retrieved from the Kaggle data set Sales Conversion Optimization by GOKAGGLERS, where it describes the marketing and conversion information of an anonymous organisation’s social media ad campaign.
@@ -25,10 +25,10 @@ Data Cleaning & Analysis - Microsoft Excel
 
 Data Visualization - Microsoft PowerBI
 
-Methodology:
+# Methodology:
 After observation, it was found that there were no null or invalid type values present in the data. However, it was easy to notice that some entries (204 entries) were having error as Column “Clicks” had value 0 but Column “Total_Conversion” had non-zero values. This is illogical because an ad cannot still gain postive conversions (customers) while no one clicks on it. So, after removing those data, Our dataset consist a total of 939 entries.
 
-Feature Engineering
+# Feature Engineering
 
 Using the features given in the data set, we can also perform feature engineering to generate some KPIs that are important for later analysis:
 
